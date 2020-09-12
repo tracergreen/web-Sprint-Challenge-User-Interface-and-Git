@@ -60,28 +60,20 @@ html, body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 2em;
-    align-items: baseline;
-}
-.header li {
-    margin: 25px;
+    align-items: center;
+    font-size: medium;
 }
 
 .links ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .links ul li {
-    margin: auto;
-}
-
-.links2 {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    align-items: baseline;
+    margin: 2em;
+    justify-content: space-evenly;
 }
 
 a {
@@ -121,6 +113,11 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.container about-page {
+    border: 1px dotted black;
+}
+
 
 .middle-content {
     margin-bottom: 20px;
