@@ -98,29 +98,49 @@ p {
     border-bottom: 1px dashed black;
     margin: 1em;
 }
-
+button {
+    border: 2px black solid;
+    background-color: white;
+    border-radius: 1em;
+    width: 10em;
+    height: 3em;
+    margin: 2em 0;
+    justify-content: left;
+}
 .aboutBody  {
     display: flex;
-    flex-flow: column wrap;
-    /* width: 1200px; */
-    justify-content: space-between;
-    padding: auto;
-
+    flex: 1;
 }
-
+.aboutBody div {
+    display: flex;
+    flex-flow: column wrap;
+}
 .strategy {
     border-bottom: 1px dashed black;
 }
+.strategy h2 {
+    margin-top: .5em;
+}
 .work {
     border-bottom: 1px dashed black;
-    margin-bottom: auto;
+}
+.work h2{
+    margin-top: .5em;
 }
 .places {
     border-bottom: 1px dashed black;
 }
 
+.places h2 {
+    margin-top: .5em;
+}
+
 .collaboration {
     border-bottom: 1px dashed black;
+}
+
+.collaboration h2 {
+        margin-top: .5em;
 }
 
 
