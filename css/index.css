@@ -101,9 +101,28 @@ p {
 
 .aboutBody  {
     display: flex;
-    flex-flow: row wrap;
-    height: 500px;
+    flex-flow: column wrap;
+    /* width: 1200px; */
+    justify-content: space-between;
+    padding: auto;
+
 }
+
+.strategy {
+    border-bottom: 1px dashed black;
+}
+.work {
+    border-bottom: 1px dashed black;
+    margin-bottom: auto;
+}
+.places {
+    border-bottom: 1px dashed black;
+}
+
+.collaboration {
+    border-bottom: 1px dashed black;
+}
+
 
 .container {
     width: 800px;
