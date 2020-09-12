@@ -84,7 +84,6 @@ a {
     margin: auto;
 }
 
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -93,6 +92,17 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.aboutHeader {
+    border-bottom: 1px dashed black;
+    margin: 1em;
+}
+
+.aboutBody  {
+    display: flex;
+    flex-flow: row wrap;
+    height: 500px;
 }
 
 .container {
@@ -113,11 +123,6 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
-.container about-page {
-    border: 1px dotted black;
-}
-
 
 .middle-content {
     margin-bottom: 20px;
