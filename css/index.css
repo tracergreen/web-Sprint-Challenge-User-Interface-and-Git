@@ -78,6 +78,7 @@ html, body {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 .header a {
@@ -93,6 +94,11 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+.aboutBody {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
 
 .aboutHeader {
     border-bottom: 1px dashed black;
@@ -107,28 +113,27 @@ button {
     margin: 2em 0;
     justify-content: left;
 }
-.aboutBody  {
-    display: flex;
-    flex: 1;
-}
 .aboutBody div {
-    display: flex;
-    flex-flow: column wrap;
+    display: inline-flex;
+    flex-flow: wrap;
 }
 .strategy {
     border-bottom: 1px dashed black;
+    margin: 2em;
 }
 .strategy h2 {
     margin-top: .5em;
 }
 .work {
     border-bottom: 1px dashed black;
+    margin: 2em;
 }
 .work h2{
     margin-top: .5em;
 }
 .places {
     border-bottom: 1px dashed black;
+    margin: 2em;
 }
 
 .places h2 {
@@ -137,12 +142,16 @@ button {
 
 .collaboration {
     border-bottom: 1px dashed black;
+    margin: 2em;
 }
 
 .collaboration h2 {
         margin-top: .5em;
 }
 
+.together {
+    margin: 2em auto 1em;
+}
 
 .container {
     width: 800px;
