@@ -46,6 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* new after here!! */
 
 * {
     box-sizing: border-box;
@@ -55,6 +56,27 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+.header {
+    display: flex;
+    justify-content: left;
+    margin: 2em;
+}
+
+.links ul {
+    display: flex;
+    justify-content: center;
+}
+
+.links ul li {
+    margin: 0 25%;
+}
+
+.links2 {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -101,10 +123,13 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box1   {
+    background-color: teal;
+}
+.middle-content .boxes .box1 .box2 .box3 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
