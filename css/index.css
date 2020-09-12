@@ -73,9 +73,8 @@ html, body {
 
 .links ul li {
     margin: 2em;
-    justify-content: space-evenly;
+    margin-bottom: .5em;
 }
-
 a {
     text-decoration: none;
     color: black;
@@ -96,8 +95,8 @@ p {
 }
 .aboutBody {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
+    max-width: 100%;
+    flex-wrap: wrap;
 }
 
 .aboutHeader {
@@ -107,50 +106,26 @@ p {
 button {
     border: 2px black solid;
     background-color: white;
-    border-radius: 1em;
+    border-radius: .75em;
     width: 10em;
     height: 3em;
     margin: 2em 0;
     justify-content: left;
 }
-.aboutBody div {
-    display: inline-flex;
-    flex-flow: wrap;
-}
 .strategy {
     border-bottom: 1px dashed black;
-    margin: 2em;
-}
+    margin: 20px;
+    max-width: 45%;
+   }
 .strategy h2 {
     margin-top: .5em;
 }
-.work {
-    border-bottom: 1px dashed black;
-    margin: 2em;
-}
-.work h2{
-    margin-top: .5em;
-}
-.places {
-    border-bottom: 1px dashed black;
-    margin: 2em;
-}
-
-.places h2 {
-    margin-top: .5em;
-}
-
-.collaboration {
-    border-bottom: 1px dashed black;
-    margin: 2em;
-}
-
-.collaboration h2 {
-        margin-top: .5em;
+.strategy img {
+    max-width: 100%;
 }
 
 .together {
-    margin: 2em auto 1em;
+    margin: 1em auto 1em;
 }
 
 .container {
